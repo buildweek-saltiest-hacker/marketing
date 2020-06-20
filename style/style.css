@@ -64,6 +64,7 @@ h1, h2 {
 	font-size: 2.3rem;
 	font-weight: bold;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 h2 {
@@ -83,6 +84,7 @@ nav a {
 	padding: 2% 0;
 	border-radius: 5px;
 	background-color: crimson;
+	border:2px solid black;
 	color: white;
 	text-decoration: none;
 	text-align: center;
@@ -90,13 +92,11 @@ nav a {
 
 button {
 	margin: 20px 0;
-	width: 50%;
+	padding:10px
 
 }
 
 footer {
-	padding-top: 15px;
-	border-top: 1px dotted silver;
 	font-size: 1.4rem;
 	text-align: center;
 
@@ -114,11 +114,15 @@ footer {
 .tagline {
 	font-style: italic;
 	font-size: 1.4rem;
+	text-align: center;
 }
 
 .main {
 	margin: 20px 0;
-	border-top: 1px dotted silver;
+	padding: 10px 0;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+
 }
 
 .img-holder-home {
@@ -141,7 +145,7 @@ footer {
 
 	nav {
 		flex-direction: row;
-		justify-content: space-evenly;
+		justify-content: space-between;
 	}
 	nav a {
 		width: 30%;
