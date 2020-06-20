@@ -55,8 +55,6 @@ html {
 
 body {
 	font-size: 1.8rem;
-	min-width: 300px;
-	max-width: 900px;
 }
 
 h1, h2 {
@@ -84,16 +82,27 @@ nav a {
 	padding: 2% 0;
 	border-radius: 5px;
 	background-color: crimson;
-	border:2px solid black;
 	color: white;
 	text-decoration: none;
+	text-transform: uppercase;
 	text-align: center;
+	font-weight:bold;
+}
+
+nav a:nth-of-type(2) {
+	background-color: white;
+	color: crimson;
+	border: 1px solid crimson;
 }
 
 button {
 	margin: 20px 0;
-	padding:10px
-
+	padding:15px 50px;
+	background: crimson;
+	border: none;
+	color: white;
+	font-size: 1.6rem;
+	font-weight: bold;
 }
 
 footer {
@@ -103,8 +112,11 @@ footer {
 }
 
 .container {
+	width:90%;
+	min-width: 300px;
+	max-width: 1000px;
 	margin: 0 auto;
-	width: 90%;
+
 }
 
 .headline1-tag-box {
@@ -118,7 +130,7 @@ footer {
 }
 
 .main {
-	margin: 20px 0;
+	margin: 0 0 20px 0;
 	padding: 10px 0;
 	border-top: 1px dotted black;
 	border-bottom: 1px dotted black;
@@ -149,5 +161,31 @@ footer {
 	}
 	nav a {
 		width: 30%;
+	}
+}
+
+@media(min-width:800px) {
+	header { 
+		display: flex;
+		justify-content: space-between;
+	}
+
+	h1, h2, .tagline {
+		text-align: left;
+	}
+
+	nav {
+		width: 45%;
+		padding:0;
+		align-items: center;
+
+	}
+
+	nav a {	
+		font-size: 1.2rem;			
+	}
+
+	.headline1-tag-box {
+
 	}
 }
