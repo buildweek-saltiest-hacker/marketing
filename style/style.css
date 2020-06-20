@@ -132,7 +132,13 @@ footer {
 	
 	h1 {
 		font-size: 3rem;
+		text-align: center;
 	}
+
+	.tagline {
+		text-align: center;
+	}
+
 	nav {
 		flex-direction: row;
 		justify-content: space-evenly;
