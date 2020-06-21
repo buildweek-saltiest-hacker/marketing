@@ -185,7 +185,6 @@ footer {
 /*START CONTACT PAGE ITEMS*/
 .team-box {
 	margin: 10px 0;
-	border:1px solid lime;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -249,6 +248,11 @@ footer {
 		margin: 15px 0;
 
 	}
+	.team-box {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 }
 
 @media(min-width:800px) {
@@ -271,4 +275,6 @@ footer {
 	nav a {	
 		font-size: 1.2rem;			
 	}
+
+
 }
