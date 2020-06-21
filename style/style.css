@@ -78,7 +78,7 @@ nav {
 nav a {
 	display: inline-block;
 	width: 100%;
-	margin: 5px 0;
+	margin: 15px 0;
 	padding: 2% 0;
 	border-radius: 5px;
 	background-color: crimson;
@@ -96,13 +96,15 @@ nav a:nth-of-type(2) {
 }
 
 button {
-	margin: 20px 0;
+	margin: 20px auto;
 	padding:15px 50px;
 	background: crimson;
 	border: none;
+	border-radius: 5px;
 	color: white;
 	font-size: 1.6rem;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 footer {
@@ -121,6 +123,7 @@ footer {
 
 .headline1-tag-box {
 	margin: 15px 0;
+	
 }
 
 .tagline {
@@ -130,6 +133,7 @@ footer {
 }
 
 .main {
+	width:100%;
 	margin: 0 0 20px 0;
 	padding: 10px 0;
 	border-top: 1px dotted black;
@@ -137,10 +141,10 @@ footer {
 
 }
 
-.img-holder-home {
-	width: 100%;
-	height: 100px; 
-	background: url('https://unsplash.it/900/150') no-repeat;
+.img-holder {
+	width: 100%; 
+	height: 300px;
+	background: url('../img/hacker-banner-900.jpg') crimson center no-repeat;
 	margin-bottom: 10px;
 }
 
@@ -177,15 +181,11 @@ footer {
 	nav {
 		width: 45%;
 		padding:0;
-		align-items: center;
+		align-items: flex-end;
 
 	}
 
 	nav a {	
 		font-size: 1.2rem;			
-	}
-
-	.headline1-tag-box {
-
 	}
 }
