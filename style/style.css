@@ -122,9 +122,9 @@ nav a:nth-of-type(2) {
 }
 
 nav a:hover, nave a:active, button:hover, button:active {
-	color: darkorange;
+	color: black;
 	background: white;
-	border-color: orange;
+	border-color: black;
 }
 
 button {
@@ -192,15 +192,12 @@ footer {
 
 .team-box .member {
 	margin: 10px;
+	background-image: url('https://picsum.photos/300/200');
 	border: 2px solid black;
 	width:300px;
 	height: 200px;
 	display: flex;
 	align-items: flex-end;
-}
-
-.member:nth-of-type(1) {
-	background-image: url('https://picsum.photos/300/200');
 }
 
 .member-info {
@@ -216,7 +213,7 @@ footer {
 }
 
 .member-info a {
-	font-size: 2.5rem;
+	font-size: 3rem;
 }
 
 .social-box {
