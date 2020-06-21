@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -60,9 +62,9 @@ body {
 h1, h2 {
 	margin-bottom: 10px;
 	font-size: 2.3rem;
-	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
+	font-family: 'Fugaz One', sans-serif;
 }
 
 h2 {
@@ -155,6 +157,20 @@ footer {
 	background: url('../img/hacker-banner-1000.jpg') crimson center no-repeat;
 	margin-bottom: 10px;
 }
+
+/*START CONTACT PAGE*/
+.team-box {
+	border:1px solid lime;
+	display: flex;
+	flex-direction: column;
+}
+
+.team-box .member {
+	border: 1px solid darkorchid;
+	width:275px;
+	height: 200px;
+}
+/*END CONTACT PAGE*/
 
 @media(min-width: 400px) {
 	.img-holder {
