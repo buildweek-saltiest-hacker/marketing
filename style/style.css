@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -57,19 +58,41 @@ html {
 
 body {
 	font-size: 1.8rem;
+	background: url('../img/light-grey-terrazzo.png') repeat;
 }
 
 h1, h2 {
 	margin-bottom: 10px;
+	padding: 5px;
+	background-color: white;
 	font-size: 2.3rem;
 	text-transform: uppercase;
 	text-align: center;
 	font-family: 'Fugaz One', sans-serif;
+
 }
 
 h2 {
 	font-size: 2rem;
 	margin: 10px 0;
+}
+
+h3 {
+	margin-bottom: 5px;
+	font-family: 'Fugaz One', sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 1.6rem;
+}
+
+a, a:visited {
+	color: crimson;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: white;
 }
 
 nav {
@@ -138,12 +161,13 @@ footer {
 .tagline {
 	font-style: italic;
 	font-size: 1.4rem;
+	font-weight: bold;
 	text-align: center;
 }
 
 .main {
 	width:100%;
-	margin: 0 0 20px 0;
+	margin-bottom:20px;
 	padding: 10px 0;
 	border-top: 1px dotted black;
 	border-bottom: 1px dotted black;
@@ -158,19 +182,49 @@ footer {
 	margin-bottom: 10px;
 }
 
-/*START CONTACT PAGE*/
+/*START CONTACT PAGE ITEMS*/
 .team-box {
+	margin: 10px 0;
 	border:1px solid lime;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 .team-box .member {
-	border: 1px solid darkorchid;
-	width:275px;
+	margin: 10px;
+	border: 2px solid black;
+	width:300px;
 	height: 200px;
+	display: flex;
+	align-items: flex-end;
 }
-/*END CONTACT PAGE*/
+
+.member:nth-of-type(1) {
+	background-image: url('https://picsum.photos/300/200');
+}
+
+.member-info {
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	height: 25%;
+	padding: 5px;
+	margin: 3px;
+	background: black;
+	color: white;
+	opacity: 0.9;
+}
+
+.member-info a {
+	font-size: 2.5rem;
+}
+
+.social-box {
+	align-self: flex-end;
+}
+
+/*END CONTACT PAGE IIEMS*/
 
 @media(min-width: 400px) {
 	.img-holder {
