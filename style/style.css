@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -53,10 +55,11 @@ table {
 
 html {
 	font-size: 62.5%;
-	font-family: Arial, Helvetica, sans-serif;
+
 }
 
 body {
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.8rem;
 	background: url('../img/light-grey-terrazzo.png') repeat;
 }
@@ -128,7 +131,7 @@ nav a:hover, nave a:active, button:hover, button:active {
 }
 
 button {
-	margin: 20px auto;
+	margin: 20px 0 0 0;
 	padding:15px 50px;
 	background: crimson;
 	border: 1px solid crimson;
@@ -140,6 +143,7 @@ button {
 }
 
 footer {
+	padding: 20px 0;
 	font-size: 1.4rem;
 	text-align: center;
 
@@ -174,12 +178,23 @@ footer {
 
 }
 
-.img-holder {
-	display: none;
+.img-banner {
+	display: flex;
+	align-items: center;
 	width: 100%; 
-	height: 300px;
-	background: url('../img/hacker-banner-1000.jpg') crimson center no-repeat;
+	height: 406px;
+	background: url('../img/troll-xing-crop-1000-gs.jpg') crimson center no-repeat;
 	margin-bottom: 10px;
+	border: 2px solid black;
+}
+
+.intro-text {
+	padding:10px;
+	background: black;
+	color: white;
+	font-size: 2rem;
+	line-height: 2.5rem;
+	opacity: 0.9;
 }
 
 /*START CONTACT PAGE ITEMS*/
@@ -223,9 +238,9 @@ footer {
 /*END CONTACT PAGE IIEMS*/
 
 @media(min-width: 400px) {
-	.img-holder {
+	/* .img-holder {
 		display: block;
-	}
+	} */
 
 	h1 {
 		font-size: 3rem;
