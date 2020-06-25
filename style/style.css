@@ -241,42 +241,6 @@ footer a:hover, footer a:active{
 	color: white;
 }
 
-.abhit {
-	background: url('../img/avatar/abhit-300.jpg');
-}
-
-.brian {
-	background: url('../img/avatar/brian-300.jpg');	
-}
-
-.evidence {
-	background: url('../img/avatar/evidence-300.jpg');	
-}
-
-.julia {
-	background: url('../img/avatar/julia-300.jpg');	
-}
-
-.mike {
-	background: url('../img/avatar/mike-300.jpg');	
-}
-
-.nadia {
-	background: url('../img/avatar/nadia-300.jpg');	
-}
-
-.robert {
-	background: url('../img/avatar/robert-300.jpg');	
-}
-
-.sam {
-	background: url('../img/avatar/sam-300.jpg');	
-}
-
-.sanjay {
-	background: url('../img/avatar/sanjay-300.jpg');	
-}
-
 .member-info a {
 	font-size: 3rem;
 }
