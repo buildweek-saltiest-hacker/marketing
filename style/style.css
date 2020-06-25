@@ -180,7 +180,7 @@ footer {
 
 .img-banner {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	width: 100%; 
 	height: 406px;
 	background: url('../img/troll-xing-crop-1000-gs.jpg') crimson center no-repeat;
@@ -224,7 +224,7 @@ footer {
 	margin: 3px;
 	background: black;
 	color: white;
-	opacity: 0.9;
+	opacity: 0.7;
 }
 
 .abhit {
