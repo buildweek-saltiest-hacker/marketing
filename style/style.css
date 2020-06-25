@@ -88,6 +88,10 @@ h3 {
 	font-size: 1.6rem;
 }
 
+p {
+	margin-bottom: 10px;
+}
+
 a, a:visited {
 	color: crimson;
 	font-weight: bold;
@@ -124,22 +128,10 @@ nav a:nth-of-type(2) {
 	border: 1px solid crimson;
 }
 
-nav a:hover, nave a:active, button:hover, button:active {
+nav a:hover, nav a:active, .img-banner button:hover, .img-banner button:active {
 	color: black;
 	background: white;
 	border-color: black;
-}
-
-button {
-	margin: 20px 0 0 0;
-	padding:15px 50px;
-	background: crimson;
-	border: 1px solid crimson;
-	border-radius: 5px;
-	color: white;
-	font-size: 1.6rem;
-	font-weight: bold;
-	text-transform: uppercase;
 }
 
 footer {
@@ -147,6 +139,11 @@ footer {
 	font-size: 1.4rem;
 	text-align: center;
 
+}
+
+footer a:hover, footer a:active{
+	color: black;
+	text-decoration: underline;
 }
 
 .container {
@@ -180,12 +177,26 @@ footer {
 
 .img-banner {
 	display: flex;
-	align-items: flex-start;
+	flex-direction: column;
+	align-items: center;
 	width: 100%; 
 	height: 406px;
-	background: url('../img/troll-xing-crop-1000-gs.jpg') crimson center no-repeat;
+	background: url('../img/troll-xing-crop-1000-gs.jpg') black center no-repeat;
 	margin-bottom: 10px;
 	border: 2px solid black;
+}
+
+.img-banner button {
+	margin: 20px 0 0 0;
+	padding:15px 50px;
+	max-width: 200px;
+	background: crimson;
+	border: 1px solid crimson;
+	border-radius: 5px;
+	color: white;
+	font-size: 1.6rem;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .intro-text {
@@ -193,8 +204,12 @@ footer {
 	background: black;
 	color: white;
 	font-size: 2rem;
-	line-height: 2.5rem;
-	opacity: 0.9;
+	opacity: 0.8;
+}
+
+.largeText {
+	font-size: 3.5rem;
+	font-family: 'fugaz one', sans-serif;
 }
 
 /*START CONTACT PAGE ITEMS*/
@@ -219,7 +234,7 @@ footer {
 	display:flex;
 	flex-direction: column;
 	width: 100%;
-	height: 20%;
+	height: 15%;
 	padding: 5px;
 	margin: 3px;
 	background: black;
